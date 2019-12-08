@@ -111,12 +111,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #promo 
 {
-	margin-top: 40px;
-	border-bottom: solid 2px #254e7b;
+	margin-top: 25px;
 	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: flex-start;
 }
 
 #promoImage 
@@ -168,7 +164,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 500px;
 }
 
-#copyRight 
+.copyRight 
 {
 	margin-left: auto;
 	width: 310px;
@@ -207,7 +203,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #productImages 
 {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 2px #254e7b;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
@@ -229,7 +225,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #contentAreaBig
 {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 2px #254e7b;
 	padding-bottom: 40px;
 }
 
@@ -249,7 +245,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .productDescLargeLeft 
 {
-	width: 410px;
+	width: 628px;
 }
 
 .productDescLargeRight 
@@ -276,20 +272,20 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 #title{
+	height:518px;
+	width:920px;
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
 	font-family: 'Raleway', sans-serif;
 }
 .titleIndex{
-
-	width: 920px;
+	background: url(../images/banner_resize.jpg) no-repeat bottom;
 }
 
 .title h2 {
 	color: #fff;
-	font-size: 31px;
+	font-size: 25px;
 	letter-spacing: -1px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
@@ -300,10 +296,44 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	color: #fff;
 	text-align: center;
 	font-weight: normal;
-	margin-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
 }
 .selected{
 	padding: 5px 0px 5px 0px;
-	background-color: #85c1e5; 
+	background-color: #ddeff7; 
+}
+
+.socialMedia {
+  height: 45px;
+  margin-left: auto;
+  margin-top: 28px;
+  margin-right: 10px;
+}
+
+#iconNav img {
+  width: 45px;
+  height: 45px;
+}
+
+#iconNav {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+#iconNav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#iconNav li a {
+  filter: grayscale(100%);
+}
+
+#iconNav li a:hover {
+  filter: grayscale(0%);
+}
+.divider{
+  padding-top: 20px;
+  border-bottom: solid 2px #254e7b;
 }
