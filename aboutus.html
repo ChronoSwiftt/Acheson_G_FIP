@@ -2,27 +2,68 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Perspective Photography</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-	<section id="topBar"></section><!--end topBar-->
 	<div id="siteContainer">
     	<header id="mainHeader">
-        	<div id="logo"><p>Logo</p></div><!--end logo-->
-            <nav id="mainNav"><p>Nav</p></nav><!--end mainNav-->
+        	<div id="logo">                
+                <img src="images/perspective_logo.svg">   
+            </div><!--end logo-->
+            <nav id="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+
+                     <a href="index.html" class="button">HOME</a>
+                     <a href="aboutus.html" class="button selected">ABOUT US</a>
+                     <a href="contactus.html" class="button">CONTACT</a></nav><!--end mainNav-->
+
         </header><!--end mainHeader-->
         <section id="productImages">
-        	<section class="productImg"><p>Product Image</p></section><!--end productImg1-->
-            <section class="productImg"><p>Product Image</p></section><!--end productImg2-->
-            <section class="productImg"><p>Product Image</p></section><!--end productImg3-->
+        	<section class="productImg">
+            <img src="images/Fence.jpg" alt="fence post">
+          </section><!--end productImg1-->
+            <section class="productImg">
+              <img src="images/Castle.jpg" alt="castle on the hill">
+            </section><!--end productImg2-->
+            <section class="productImg">
+              <img src="images/smirnoff.jpg" alt="smirnoff bottle">
+            </section><!--end productImg3-->
         </section><!--end productImages-->
-        <section id="contentAreaBig">
-        	<p>Content Area</p>
+        <section id="contentAreaBig"class="title titleAbout">
+        	<img src="images/ICE above.jpg">
+          <h2>The Art of Photography shown through the Lens of a Camera</h2>
+            <h3>Perspective shows that the power is not only in the Lens but the Photographer</h3>
         </section>
         <footer id="mainFooter">
-        	<div id="footerNav"><p>Footer Nav</p></div><!--end FooterNav-->
-            <div id="copyRight"><p>Copyright Info</p></div><!--end Copyright-->
+        	<div id="footerNav"> 
+                    <a href="index.html" class="button">HOME</a>
+                     <a href="aboutus.html" class="button selected">ABOUT US</a>
+                     <a href="contactus.html" class="button">CONTACT</a>
+                   </nav><!--end mainNav-->
+            </div><!--end FooterNav-->
+            <div class="socialMedia copyRight">
+        <h2 class="hidden">Social Media</h2>
+        <ul id="iconNav">
+            <li id="facebook">
+              <a href="https://www.facebook.com/gerrit.acheson">
+                <img src="images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li id="twitter">
+              <a href="https://twitter.com/ChronoSwift">
+                <img src="images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li id="youtube">
+              <a href="https://www.youtube.com/channel/UC7FN4zctHD7d7aJDzcZ5R1Q">
+                <img src="images/youtube.svg" alt="youtube">
+              </a>
+           </li>
+        </ul>
+      </div>   
+  </div><!--end Copyright-->
         </footer><!--end mainFooter-->
     </div><!--end siteContainer-->
 <script src="js/main.js"></script>    

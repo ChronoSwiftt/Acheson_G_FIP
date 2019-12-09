@@ -111,12 +111,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #promo 
 {
-	margin-top: 40px;
-	border-bottom: solid 2px #254e7b;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: flex-start;
+	margin-top: 20px;
+	padding-bottom: 35px;
 }
 
 #promoImage 
@@ -134,12 +130,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #productInfo 
 {
-	margin-top: 40px;
+	margin-top: 55px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 	border-bottom: solid 2px #254e7b;
-	padding-bottom: 40px;
+	padding-bottom: 35px;
 }
 
 /*Get rid of this, here just to give different height to productInfo*/
@@ -155,8 +151,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #mainFooter 
 {
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	display: flex;
 	flex-direction: row;
   	justify-content: flex-start; 
@@ -168,9 +164,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 500px;
 }
 
-#copyRight 
+.copyRight 
 {
-	margin-left: auto;
 	width: 310px;
 }
 
@@ -178,7 +173,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #contentCon {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 2px #254e7b;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
@@ -207,7 +202,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #productImages 
 {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 2px #254e7b;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
@@ -222,21 +217,21 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .productImg 
 {
-	width: 280px;
+	width: 300px;
 }
 
 
 #contentAreaBig
 {
 	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 2px #254e7b;
 	padding-bottom: 40px;
 }
 
-/*Get rid of this, here just to give different height*/
 #contentAreaBig p 
 {
 	line-height: 300px;
+	font-family: 'Raleway', sans-serif;
 }
 
 #promoImageBig
@@ -249,12 +244,18 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .productDescLargeLeft 
 {
-	width: 410px;
+	width: 400px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .productDescLargeRight 
 {
-	width: 410px;
+	width: 400px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* My CSS */
@@ -276,20 +277,22 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 #title{
+	height:518px;
+	width:920px;
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
 	font-family: 'Raleway', sans-serif;
 }
 .titleIndex{
-
-	width: 920px;
+	background: url(../images/banner_resize.jpg) no-repeat bottom;
 }
-
+.titleAbout{
+	background: url(../images/ICE.jpg) no-repeat bottom;
+}
 .title h2 {
 	color: #fff;
-	font-size: 31px;
+	font-size: 25px;
 	letter-spacing: -1px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
@@ -300,10 +303,139 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	color: #fff;
 	text-align: center;
 	font-weight: normal;
-	margin-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
 }
 .selected{
 	padding: 5px 0px 5px 0px;
-	background-color: #85c1e5; 
+	background-color: #ddeff7; 
 }
+
+.socialMedia {
+  height: 45px;
+  margin-left: auto;
+  margin-top: 28px;
+  margin-right: 10px;
+}
+
+#iconNav img {
+  width: 45px;
+  height: 45px;
+}
+
+#iconNav {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+#iconNav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#iconNav li a {
+  filter: grayscale(100%);
+}
+
+#iconNav li a:hover {
+  filter: grayscale(0%);
+}
+.divider{
+  padding-top: 30px;
+  border-bottom: solid 2px #254e7b;
+}
+
+#mainContact {
+  width: 940px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#mainContact h2 {
+  font-size: 30px;
+  color: #2073a8;
+  background-color: #ddeff7;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+}
+
+#contactArea {
+  width: 469px;
+  margin-bottom: 30px;
+}
+
+
+#contactText {
+  font-size: 21px;
+  margin-bottom: 30px;
+  width: 340px;
+}
+
+#contactForm {
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+}
+
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+}
+
+#submit {
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #2073a8;
+  font-size: 14px;
+  border: 1px solid #003471;
+}
+
+#mapArea {
+  width: 100px;
+  margin-right: 200px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+#mapArea h3 {
+  font-size: 21px;
+  margin-top: 0;
+  color: #2073a8;
+}
+
+#mapArea ul {
+  list-style-type: none;
+  padding: 0;
+} 
